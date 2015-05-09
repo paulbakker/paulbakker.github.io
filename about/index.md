@@ -1,25 +1,18 @@
 ---
 layout: page
-title: About the Theme
+title: About me
 tags: [about, Jekyll, theme, responsive]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: background.jpg
+  credit: Paul Bakker
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+On this blog I post about software development related topics that have my attention.
 
-## Minimal Mistakes is all about:
+I'm working as a software architect at Luminis Technologies, based in the Netherlands. My work is mostly about product development, working on innovative technolgy. OSGi has been a key technologie in the past few years, which resulted in publishing "Modular Cloud Apps with OSGi" with O'Reilly. A lot of my work has been spent contributing to [Amdatu](http://amdatu.org), an open source project focussed at creating great OSGi components, and making OSGi the best tool for building "cloud" applications. 
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+Currently a lot of my focus is towards improving cloud infrastructure, which includes Docker, Kubernetes and building on top of these tools.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+I'm speaking at a lot of tech conferences, including JavaOne, GeeCon and Devoxx.

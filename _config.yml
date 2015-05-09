@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title: Paul about software development
 locale:           en_US
-url:              
+url:             
 
 
 # Jekyll configuration
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Paul Bakker
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  bio: "Software architect, author of Modular Cloud Apps with OSGi"
+  email: blog@paulbakker.io
   disqus-shortname: 
-  twitter: #username
+  twitter: pbakker
   facebook: #username
   google:
-    plus: #username
-    analytics: 
+    plus: PaulBakker
+    analytics: UA-62790669-1
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  github: paulbakker
+  stackoverflow: 1195938/paul-bakker
+  linkedin: paulb01
   xing: #username
   instagram: #username
   lastfm: #username
