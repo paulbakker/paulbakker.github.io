@@ -51,13 +51,13 @@ If we would want to add a backend server manually (e.g. register a Pod manually)
 etcdctl set /vulcan/backends/example/servers/10.200.1.2 '{"URL": "http://10.200.1.2:8080"}'
 {% endhighlight %}
 
-Amdatu Vulcand
+Amdatu Vulcanized
 ==
 
-The Amdatu Vulcand registrator is available on [BitBucket](https://bitbucket.org/amdatulabs/amdatu-vulcanized), and as a [Docker container](https://registry.hub.docker.com/u/amdatu/amdatu-vulcanized) in the Docker Hub. It can be started as a Docker container:
+The Amdatu Vulcanized registrator is available on [BitBucket](https://bitbucket.org/amdatulabs/amdatu-vulcanized), and as a [Docker container](https://registry.hub.docker.com/u/amdatu/amdatu-vulcanized) in the Docker Hub. It can be started as a Docker container:
 
 {% highlight bash %}
-docker run -d amdatu-registrator app -pods "ws://[kubernetes-server]/api/v1beta3/namespaces/default/pods?watch=true" -etcd "[etcd-address]"
+docker run -d amdatu/amdatu-vulcanized app -pods "ws://[kubernetes-server]/api/v1beta3/namespaces/default/pods?watch=true" -etcd "[etcd-address]"
 {% endhighlight %}
 
 It will start watching Kubernetes for new or deleted Pods, and take care of (de)registration in etcd for Vulcan. With this, we have a fully dynamic load balancer configuration!
