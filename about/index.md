@@ -15,4 +15,33 @@ I'm working as a software architect at Luminis Technologies, based in the Nether
 
 Currently a lot of my focus is towards improving cloud infrastructure, which includes Docker, Kubernetes and building on top of these tools.
 
-I'm speaking at a lot of tech conferences, including JavaOne, GeeCon and Devoxx.
+I'm speaking at a lot of tech conferences. Want me to speak at your conference? Feel free to contact me.
+
+Recent conferences
+==
+
+| Conference        | City           | Year  |
+| ------------- |:-------------:| -----:|
+| DevNation       | Boston | 2015 |
+| InfoShare       | Gdansk | 2015 |
+| Microsoft Ignite       | Chicago | 2015 |
+| Luminis DevCon       | Ede | 2015 |
+| IoT Developer's Day       | Utrecht | 2015 |
+| JFokus       | Stockholm | 2015 |
+| OSGi day       | Bucharest | 2014 |
+| JMaghreb       | Casablanca | 2014 |
+| JDD       | Krakow | 2014 |
+| JavaOne       | San Fransisco | 2014 |
+| OSGi DevCon       | New York | 2014 |
+| GeeCon      | Krakow | 2014 |
+| DevNation      | San Fransisco | 2014 |
+| JavaLand      | Bruhl | 2014 |
+| JDD      | Krakow | 2013 |
+| JFall      | Nijkerk | 2013 |
+| JDD      | Krakow | 2013 |
+| JavaOne      | San Fransisco | 2013 |
+| ASAS      | Arnhem | 2013 |
+| GeenCon      | Krakow | 2013 |
+| JavaOne Russia      | Moscow | 2013 |
+| OSGi DevCon      | Boston | 2013 |
+| JFokus      | Stockholm | 2013 |
