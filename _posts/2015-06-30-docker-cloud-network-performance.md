@@ -137,7 +137,7 @@ An alternative to Weave is [Flannel](https://github.com/coreos/flannel), which i
 | A2  | 22.8 MB/sec | 269 us | -8% |
 | D2  | 95.1 MB/sec | 231 us | -19% |
 
-We decided to switch to Flannel Vxlan for now for our Kubernetes clusters, at least until Wave fast datapath becomes generally available.
+We decided to switch to Flannel Vxlan for now for our Kubernetes clusters, at least until Weave fast datapath becomes generally available.
 
 Load balancer bandwidth
 ==
