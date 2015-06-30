@@ -2,7 +2,8 @@
 
 title: Paul about software development
 locale:           en_US
-url:             http://paulbakker.io
+#url:             http://paulbakker.io
+url:             http://localhost:4000
 
 
 # Jekyll configuration
@@ -30,7 +31,7 @@ owner:
   avatar: bio-photo.jpg
   bio: "Software architect, author of Modular Cloud Apps with OSGi"
   email: blog@paulbakker.io
-  disqus-shortname: 
+  disqus-shortname: disqus_paul_bakker
   twitter: pbakker
   facebook: #username
   google:
