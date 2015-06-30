@@ -3,6 +3,7 @@ layout: post
 title:  "OSGi and Docker, a perfect team"
 date:   2015-05-07 22:15:19
 categories: Docker
+comments: true
 ---
 
 Docker makes it easy to run applications or application components on different environments. You don't have to worry anymore about installing environment dependencies such as the correct JVM version are installed on a host system, because they are shipped as part of a container. 

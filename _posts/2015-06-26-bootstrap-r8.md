@@ -3,6 +3,7 @@ layout: post
 title:  "Amdatu Bootstrap r8"
 date:   2015-06-26 15:56
 categories: Amdatu
+comments: true
 ---
 
 We've just released a new version of Amdatu Bootstrap, packed with fixes and new features. 

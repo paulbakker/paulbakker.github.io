@@ -3,6 +3,7 @@ layout: post
 title:  "Load balancing Kubernetes"
 date:   2015-05-21 19:08
 categories: Kubernetes
+comments: true
 ---
 
 [Kubernetes](http://kubernetes.io) is excellent for running (web) applications in a clustered way. This blog will go into making applications deployed on Kubernetes available on an external, load balanced, IP address. Before diving into HTTP load balancers there are two Kubernetes concepts to understand: [Pods](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/pods.md) and [Replication Controllers](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/replication-controller.md). 

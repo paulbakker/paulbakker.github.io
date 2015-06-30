@@ -3,6 +3,7 @@ layout: post
 title:  "Why you should use Amdatu for you next startup"
 date:   2015-06-07 22:31
 categories: Amdatu
+comments: true
 ---
 
 In the past few months I have been working on a side project named [Workouttraxx](https://workouttraxx.com). Workouttraxx is an online signin system for CrossFit boxes and is being used by a few boxes for several months already.
