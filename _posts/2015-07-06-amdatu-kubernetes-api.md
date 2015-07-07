@@ -2,7 +2,7 @@
 layout: post
 title:  "Amdatu Kubernets API for OSGi"
 date:   2015-07-06 22:15:19
-categories: Kubernetes, Amdatu
+categories: Amdatu
 comments: true
 ---
 
