@@ -63,6 +63,6 @@ Learn more
 
 The [integration tests](https://bitbucket.org/amdatulabs/amdatu-kubernetes/src/6850e7850f171ded7a814473e21128078791d929/org.amdatu.kubernetes.test/src/org/amdatu/kubernetes/test/KubernetesTest.java?at=master) in the project are the best place to learn how to use the API. Configure the test suite with a Kubernets API url and it will create a test namespace with a ReplicationController and Pods and executes several operations on them.
 
-Of course also take a look at the [JavaDocs](https://amdatu.atlassian.net/builds/browse/KUBER-MAIN/latest/artifact/JOB1/javadoc/index.html).
+Of course also take a look at the [JavaDocs](https://amdatu.atlassian.net/builds/browse/KUBER-MAIN/latest/artifact/JOB1/javadoc/index.html) and get the latest [binary](https://amdatu.atlassian.net/builds/browse/KUBER-MAIN/latest/artifact/JOB1/bundles). You can also build the [sources](https://bitbucket.org/amdatulabs/amdatu-kubernetes) yourself using Gradle.
 
 The Kubernetes API is not (yet) fully covered by Amdatu Kubernetes, but the most important methods are, including watches. Of course pull requests are welcome!
