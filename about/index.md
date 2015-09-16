@@ -15,13 +15,16 @@ I'm working as a software architect at Luminis Technologies, based in the Nether
 
 Currently a lot of my focus is towards improving cloud infrastructure, which includes Docker, Kubernetes and building on top of these tools.
 
-I'm speaking at a lot of tech conferences. Want me to speak at your conference? Feel free to contact me.
+I love speaking at tech conferences. Want me to speak at your conference? Feel free to contact me.
 
 Recent conferences
 ==
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| JFall       | Ede | 2015 |
+| JavaOne       | San Fransisco | 2015 |
+| JavaZone       | Oslo | 2015 |
 | DevNation       | Boston | 2015 |
 | InfoShare       | Gdansk | 2015 |
 | Microsoft Ignite       | Chicago | 2015 |
