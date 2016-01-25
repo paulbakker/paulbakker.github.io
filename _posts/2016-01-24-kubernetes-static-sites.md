@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hosting static sites on Kubernetes"
+title:  "Hosting UI projects on Kubernetes"
 date:   2016-01-25 22:15:19
 categories: kubernetes
 comments: true
