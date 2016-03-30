@@ -11,7 +11,7 @@ image:
 
 On this blog I post about software development related topics that have my attention.
 
-I'm working as a software architect at Luminis Technologies, based in the Netherlands. My work is mostly about product development, working on innovative technolgy. OSGi has been a key technologie in the past few years, which resulted in publishing "Modular Cloud Apps with OSGi" with O'Reilly. A lot of my work has been spent contributing to [Amdatu](http://amdatu.org), an open source project focussed at creating great OSGi components, and making OSGi the best tool for building "cloud" applications. 
+I'm working as a software architect at Luminis Technologies, based in the Netherlands. My work is mostly about product development, working on innovative technolgy. OSGi has been a key technologie in the past few years, which resulted in publishing "Modular Cloud Apps with OSGi" with O'Reilly. A lot of my work has been spent contributing to [Amdatu](http://amdatu.org), an open source project focussed at creating great OSGi components, and making OSGi the best tool for building "cloud" applications.
 
 Currently a lot of my focus is towards improving cloud infrastructure, which includes Docker, Kubernetes and building on top of these tools.
 
@@ -22,6 +22,10 @@ Recent conferences
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| DevNation       | San Fransisco | 2016 |
+| Devoxx UK       | London | 2016 |
+| GeeCon       | Krakow | 2016 |
+| Luminis DevCon       | Ede | 2016 |
 | JFall       | Ede | 2015 |
 | JavaOne       | San Fransisco | 2015 |
 | JavaZone       | Oslo | 2015 |
