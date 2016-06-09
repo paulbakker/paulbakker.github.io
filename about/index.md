@@ -11,9 +11,9 @@ image:
 
 On this blog I post about software development related topics that have my attention.
 
-I'm working as a software architect at Luminis Technologies, based in the Netherlands. My work is mostly about product development, working on innovative technolgy. OSGi has been a key technologie in the past few years, which resulted in publishing "Modular Cloud Apps with OSGi" with O'Reilly. A lot of my work has been spent contributing to [Amdatu](http://amdatu.org), an open source project focussed at creating great OSGi components, and making OSGi the best tool for building "cloud" applications.
+I'm working as a software architect for Luminis Technologies, where I'm currently leading the team that develops [Cloud RTI](https://cloud-rti.com); a Kubernetes based service that takes care of DevOps tasks like blue/green deployment, failover, centralised logging and monitoring. 
 
-Currently a lot of my focus is towards improving cloud infrastructure, which includes Docker, Kubernetes and building on top of these tools.
+I'm the author of “Building Modular Cloud Apps With OSGi” published by O'Reilly and an advocate for modularity in software. Currently I'm co-authoring my second book for O'Reilly "Java 9 Modularity" which is scheduled to be published early 2017. 
 
 I love speaking at tech conferences. Want me to speak at your conference? Feel free to contact me.
 
@@ -22,6 +22,7 @@ Recent conferences
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| JavaZone | Oslo | 2016 |
 | DevNation       | San Fransisco | 2016 |
 | Devoxx UK       | London | 2016 |
 | GeeCon       | Krakow | 2016 |
