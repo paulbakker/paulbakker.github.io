@@ -22,6 +22,7 @@ Recent conferences
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| Øredev	| Malmö | 2016 |
 | JavaZone | Oslo | 2016 |
 | DevNation       | San Fransisco | 2016 |
 | Devoxx UK       | London | 2016 |
