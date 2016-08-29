@@ -12,7 +12,7 @@ You can now order the Early Access release of our upcoming book through O'Reilly
 It is also available on [Safari Books](http://my.safaribooksonline.com/book/programming/java/9781491954157) online, if you have a subscription there.
 If prefer reading the final edition on real paper, you can even pre-order [at Amazon](http://amzn.to/2buO9bZ) already.
 
-![Java 9 Modularity Early Access Release](/pics/java9mod_earlyaccess.jpg)
+![Java 9 Modularity Early Access Release](/images/posts/java9/java9mod_earlyaccess.jpg)
 
 When you order the Early Access release, obviously you will get updates on the content as they come.
 No worries, there's more in the pipeline already.
