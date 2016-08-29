@@ -2,8 +2,8 @@
 
 title: Paul about software development
 locale:           en_US
-#url:             http://paulbakker.io
 url:             http://paulbakker.io
+#url:             http://localhost:4000
 
 
 # Jekyll configuration
@@ -30,7 +30,7 @@ kramdown:
 owner:
   name: Paul Bakker
   avatar: bio-photo.jpg
-  bio: "Software architect, author of Modular Cloud Apps with OSGi"
+  bio: "Software architect, author of Modular Cloud Apps with OSGi and Java 9 Modularity"
   email: blog@paulbakker.io
   disqus-shortname: paulbakkerio
   twitter: pbakker
