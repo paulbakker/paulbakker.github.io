@@ -11,7 +11,7 @@ This post gives some insights in that experience, and some best practices to mak
 I joined Luminis Technologies five years ago, as one of the first employees.
 Although Luminis Technologies is part of Luminis, which has been around for 15 years, we were operating quite differently from the rest of the organization.
 Working remotely was one of those things.
-Since I [left the company]() to join Netflix it made sense to look back at this.
+Since I [left the company](http://paulbakker.io/personal/joining-netflix/) to join Netflix it made sense to look back at this.
 
 Remote all the way!
 ---
