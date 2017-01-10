@@ -7,8 +7,7 @@ comments: true
 ---
 
 2017 just got started, and it's already an exciting year. 
-Later this month I will join Netflix as part of the Edge Developer Experience team. 
-My wife and I will relocate to the bay area as well. 
+Next week I will relocate to the bay area and join Netflix as part of the Edge Developer Experience team. 
 I'm super excited about this step and can't wait to get started. 
 The Edge DevExp team is responsible for providing the tools and infrastructure for developers connecting to the Netflix API [1]. 
 
