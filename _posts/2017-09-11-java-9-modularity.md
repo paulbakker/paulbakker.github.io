@@ -3,7 +3,7 @@ layout: post
 title:  "Java 9 Modularity book now available"
 date:   2017-09-11 15:00
 categories: java
-comments: true
+comments: false
 ---
 
 After working on "Java 9 Modularity" together with Sander Mak for almost two years, it has now been published by O'Reilly.
