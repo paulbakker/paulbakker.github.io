@@ -13,7 +13,7 @@ On this blog I post about software development related topics that have my atten
 
 I'm a senior software engineer with Netflix in the Edge Developer Productivity team, where I primarily work on tools to increase developer productivity within the company.  Besides my love for writing code, I have a passion for sharing knowledge.  I published two books with O'Reilly: "Modular Cloud Apps with OSGi" was published in 2013, and "Java 9 Modularity" was published in September 2017. Both books are about modularity in Java, and this is an important topic to me.
 I've spoken at numerous conferences around the world about a wide variaty of topics.
-I'm also active on twitter as @pbakker.
+I'm also active on twitter as [@pbakker](https://twitter.com/pbakker).
 
 I love speaking at tech conferences. Want me to speak at your conference? Feel free to contact me.
 
