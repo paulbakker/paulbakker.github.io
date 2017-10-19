@@ -11,9 +11,9 @@ image:
 
 On this blog I post about software development related topics that have my attention.
 
-I'm working as a software architect for Luminis Technologies, where I'm currently leading the team that develops [Cloud RTI](https://cloud-rti.com); a Kubernetes based service that takes care of DevOps tasks like blue/green deployment, failover, centralised logging and monitoring. 
-
-I'm the author of “Building Modular Cloud Apps With OSGi” published by O'Reilly and an advocate for modularity in software. Currently I'm co-authoring my second book for O'Reilly "Java 9 Modularity" which is scheduled to be published early 2017. 
+I'm a senior software engineer with Netflix in the Edge Developer Productivity team, where I primarily work on tools to increase developer productivity within the company.  Besides my love for writing code, I have a passion for sharing knowledge.  I published two books with O'Reilly: "Modular Cloud Apps with OSGi" was published in 2013, and "Java 9 Modularity" was published in September 2017. Both books are about modularity in Java, and this is an important topic to me.
+I've spoken at numerous conferences around the world about a wide variaty of topics.
+I'm also active on twitter as @pbakker.
 
 I love speaking at tech conferences. Want me to speak at your conference? Feel free to contact me.
 
