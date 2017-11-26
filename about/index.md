@@ -22,6 +22,8 @@ Recent conferences
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| Java One	| San Fransisco | 2017 |
+| Devoxx US	| San Jose | 2017 |
 | Øredev	| Malmö | 2016 |
 | JavaZone | Oslo | 2016 |
 | DevNation       | San Fransisco | 2016 |
