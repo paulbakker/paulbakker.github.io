@@ -31,7 +31,7 @@ A while ago Docker introduced support for multistage builds.
 Basically multiple images defined in a single Dockerfile, and the ability to pass artifacts from one stage to the next.
 This is perfect for creating optimal Java images!
 
-The example discussed below is based on the [https://github.com/java9-modularity/java9-vertx](modular Vert.x application) that I used in a [previous blog post](http://paulbakker.io/java/java9-vertx).
+The example discussed below is based on the [modular Vert.x application](https://github.com/java9-modularity/java9-vertx) that I used in a [previous blog post](http://paulbakker.io/java/java9-vertx).
 It's main feature is the use of the Java module system, and it's now updated to Java 10 (e.g. using the `var` keyword).
 
 The application can be built using Gradle, using it's (still experimental) plugin for the module system.
