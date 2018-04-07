@@ -110,6 +110,7 @@ docker build -t vertx-demo .
 
 This produces an image of around 300mb.
 Not as good as a Go application, but very useable!
+Note that the final image doesn't contain the JDK, Gradle, or our source files tha twe used to build the application.
 
 Running the image is a simple Docker run, or more likely, using the container management system of your choice.
 
