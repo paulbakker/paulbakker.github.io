@@ -4,6 +4,8 @@ title: Recordings
 ---
 This page lists some recordings of conference talks, interviews and web casts that I was involved in.
 <p>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/haOaA4MYUGA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p>
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/TEoexFsDP6A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <p>
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/Y1OiRKhzT50" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
