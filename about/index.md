@@ -22,6 +22,10 @@ Recent conferences
 
 | Conference        | City           | Year  |
 | ------------- |:-------------:| -----:|
+| Oracle Code One	| San Fransisco | 2019 |
+| Oracle Code One	| San Fransisco | 2018 |
+| O'Reilly Software Architecture | New York | 2018 |
+| Developer Productivity meetup | Los Gatos | 2018 |
 | Java One	| San Fransisco | 2017 |
 | Devoxx US	| San Jose | 2017 |
 | Øredev	| Malmö | 2016 |
