@@ -3,7 +3,7 @@ title: Don't use AI to write
 description: Writing requires thinking, don't let an AI do the thinking for you.
 publishedDate: 2026-08-13
 tags: [AI]
-draft: true
+draft: false
 ---
 
 Tools like Claude, Codex/ChatGPT and Gemini are great.
@@ -35,5 +35,4 @@ Based on the feedback you get back, you're back in thinking mode how to best add
 
 AI tools are also very useful while preparing to write.
 Collect supporting data, structure data, and ask question about data, where "data" can really be anything.
-
 
