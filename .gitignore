@@ -1,8 +1,6 @@
-_site
-.sass-cache
+node_modules/
+dist/
+.astro/
+.idea/
 .DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-node_modules
-_asset_bundler_cache
+*.log

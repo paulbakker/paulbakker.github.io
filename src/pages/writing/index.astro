@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleList from '../../components/ArticleList.astro';
+
+const posts = (await getCollection('writing', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf());
+const tags = [...new Set(posts.flatMap((post) => post.data.tags))].sort();
+---
+
+<BaseLayout
+  title="Writing | Paul Bakker"
+  description="Articles by Paul Bakker about Java platforms, developer productivity, and AI-assisted software development."
+>
+  <header class="page-header">
+    <p class="eyebrow">Notes from the work</p>
+    <h1>Writing</h1>
+    <p>Essays and practical notes on building software, platforms, and better developer workflows.</p>
+  </header>
+
+  {tags.length > 0 && (
+    <div class="tag-summary" aria-label="Topics">
+      {tags.map((tag) => <span>{tag}</span>)}
+    </div>
+  )}
+
+  <section class="content-section" aria-label="Articles">
+    <ArticleList posts={posts} emptyMessage="No articles have been published on the rebuilt site yet." />
+  </section>
+</BaseLayout>

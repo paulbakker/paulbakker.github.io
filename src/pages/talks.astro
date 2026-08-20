@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { talks } from '../data';
+---
+
+<BaseLayout
+  title="Talks | Paul Bakker"
+  description="Selected conference talks, technical sessions, and podcast conversations featuring Paul Bakker."
+>
+  <header class="page-header">
+    <p class="eyebrow">Recording archive</p>
+    <h1>Talks</h1>
+    <p>Selected sessions and conversations on Java, Spring, GraphQL, platform engineering, and developer productivity.</p>
+  </header>
+
+  <section class="content-section" aria-label="Recorded talks">
+    <div class="talk-list talk-list-full">
+      {talks.map((talk) => (
+        <a class="talk-row" href={talk.url} target="_blank" rel="noreferrer">
+          <div>
+            <span class="talk-topic">{talk.topic}</span>
+            <h2>{talk.title}</h2>
+          </div>
+          <p>{talk.event} · {talk.year}</p>
+          <span class="talk-open" aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <aside class="contact-callout">
+    <p class="eyebrow">Speaking</p>
+    <h2>Have a relevant event or podcast?</h2>
+    <a class="button button-primary" href="mailto:blog@paulbakker.io">Get in touch</a>
+  </aside>
+</BaseLayout>

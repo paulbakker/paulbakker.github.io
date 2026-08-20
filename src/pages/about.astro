@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data';
+---
+
+<BaseLayout
+  title="About | Paul Bakker"
+  description="About Paul Bakker, a staff software engineer on the Java Platform team at Netflix, author, and conference speaker."
+>
+  <header class="page-header about-header">
+    <div>
+      <p class="eyebrow">About</p>
+      <h1>Paul Bakker</h1>
+      <p>Staff software engineer, author, and speaker focused on making complex software systems easier to build and evolve.</p>
+    </div>
+    <img src="/images/paul-bakker.jpg" alt="Paul Bakker" width="500" height="500" />
+  </header>
+
+  <div class="about-layout">
+    <article class="prose about-prose">
+      <h2>Building better engineering systems</h2>
+      <p>
+        I am a staff software engineer on the Java Platform team at Netflix. I work on improving the Java stack and tooling used by all Netflix microservices and was one of the original authors of the DGS (GraphQL) Framework.
+      </p>
+      <p>
+        I published two books about Java modularity with O'Reilly Media: <em>Java 9 Modularity</em>, co-authored with Sander Mak, and <em>Building Modular Cloud Apps with OSGi</em>, co-authored with Bert Ertman.
+      </p>
+      <p>
+        I am a frequent conference speaker on Java, Spring, GraphQL, platform engineering, and developer tooling. This site is where I develop those ideas into durable written work.
+      </p>
+      <p>All opinions shared here are my own.</p>
+    </article>
+    <aside class="about-aside">
+      <p class="eyebrow">Elsewhere</p>
+      <a href={site.social.github} rel="me">GitHub <span aria-hidden="true">↗</span></a>
+      <a href={site.social.linkedin} rel="me">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href={`mailto:${site.email}`}>Email</a>
+    </aside>
+  </div>
+</BaseLayout>

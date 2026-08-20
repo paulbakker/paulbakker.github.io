@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleList from '../components/ArticleList.astro';
+import { talks, site } from '../data';
+
+const posts = (await getCollection('writing', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf())
+  .slice(0, 3);
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Paul Bakker',
+  url: 'https://paulbakker.io',
+  jobTitle: 'Staff Software Engineer',
+  worksFor: { '@type': 'Organization', name: 'Netflix' },
+  sameAs: [site.social.github, site.social.linkedin],
+};
+---
+
+<BaseLayout>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(personSchema)} />
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Staff software engineer · Author · Speaker</p>
+      <h1>Paul Bakker</h1>
+      <p class="hero-lede">
+        I am a staff software engineer on the Java Platform team at Netflix.
+      </p>
+      <p class="hero-support">
+        I work on the Java stack and tooling used by Netflix microservices, and was one of the original authors of the DGS framework.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="/writing/">Read the writing</a>
+        <a class="button button-secondary" href="/about/">More about me</a>
+      </div>
+    </div>
+    <figure class="hero-portrait">
+      <img src="/images/paul-bakker.jpg" alt="Paul Bakker speaking at a conference" width="500" height="500" />
+      <figcaption>Building software and sharing what works.</figcaption>
+    </figure>
+  </section>
+
+  <section class="focus-band" aria-labelledby="focus-heading">
+    <div class="section-heading">
+      <p class="eyebrow">Current focus</p>
+      <h2 id="focus-heading">Engineering at platform scale</h2>
+    </div>
+    <div class="focus-grid">
+      <article>
+        <span class="focus-number">01</span>
+        <h3>Modern Java</h3>
+        <p>Platforms, frameworks, and architecture for the modern JVM ecosystem.</p>
+      </article>
+      <article>
+        <span class="focus-number">02</span>
+        <h3>Developer productivity</h3>
+        <p>Tools and systems that make the right engineering path the easy path.</p>
+      </article>
+      <article>
+        <span class="focus-number">03</span>
+        <h3>AI-assisted development</h3>
+        <p>Practical patterns for agents, migrations, and dependable software workflows.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="writing-heading">
+    <div class="section-heading section-heading-row">
+      <div>
+        <p class="eyebrow">Latest</p>
+        <h2 id="writing-heading">Writing</h2>
+      </div>
+      <a class="text-link" href="/writing/">All writing</a>
+    </div>
+    <ArticleList posts={posts} emptyMessage="The new publication is being prepared. The first article will appear here." />
+  </section>
+
+  <section class="home-section talks-preview" aria-labelledby="talks-heading">
+    <div class="section-heading section-heading-row">
+      <div>
+        <p class="eyebrow">Selected recordings</p>
+        <h2 id="talks-heading">Talks and conversations</h2>
+      </div>
+      <a class="text-link" href="/talks/">All talks</a>
+    </div>
+    <div class="talk-list">
+      {talks.slice(0, 3).map((talk) => (
+        <a class="talk-row" href={talk.url} target="_blank" rel="noreferrer">
+          <div>
+            <span class="talk-topic">{talk.topic}</span>
+            <h3>{talk.title}</h3>
+          </div>
+          <p>{talk.event} · {talk.year}</p>
+          <span class="talk-open" aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

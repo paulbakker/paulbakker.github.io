@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { books } from '../data';
+---
+
+<BaseLayout
+  title="Books | Paul Bakker"
+  description="Books by Paul Bakker on Java modularity and modular cloud applications."
+>
+  <header class="page-header">
+    <p class="eyebrow">Published work</p>
+    <h1>Books</h1>
+    <p>Two practical guides to building modular systems on the Java platform.</p>
+  </header>
+
+  <section class="book-list" aria-label="Books by Paul Bakker">
+    {books.map((book) => (
+      <article class="book-entry">
+        <div class="book-cover">
+          <img src={book.image} alt={`Cover of ${book.title}`} loading="lazy" />
+        </div>
+        <div class="book-copy">
+          <p class="book-meta">{book.publisher} · {book.year}</p>
+          <h2>{book.title}</h2>
+          <p class="book-coauthor">{book.coauthor}</p>
+          <p>{book.description}</p>
+          <a class="text-link" href={book.url} target="_blank" rel="noreferrer">View at O'Reilly</a>
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

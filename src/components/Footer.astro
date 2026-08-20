@@ -1,0 +1,23 @@
+---
+import { site } from '../data';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-name">Paul Bakker</p>
+      <p>Java platforms, developer productivity, and AI-assisted software development.</p>
+    </div>
+    <div class="footer-links" aria-label="Social links">
+      <a href={site.social.github} rel="me">GitHub</a>
+      <a href={site.social.linkedin} rel="me">LinkedIn</a>
+      <a href="/rss.xml">RSS</a>
+      <a href={`mailto:${site.email}`}>Email</a>
+    </div>
+  </div>
+  <div class="footer-meta">
+    <span>&copy; {year} Paul Bakker</span>
+    <span>Opinions are my own.</span>
+  </div>
+</footer>

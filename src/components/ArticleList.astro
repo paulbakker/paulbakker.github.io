@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  posts: CollectionEntry<'writing'>[];
+  emptyMessage?: string;
+}
+
+const { posts, emptyMessage = 'No articles published yet.' } = Astro.props;
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year: 'numeric' }).format(date);
+---
+
+{posts.length > 0 ? (
+  <ol class="article-list">
+    {posts.map((post) => (
+      <li>
+        <a href={`/writing/${post.id}/`}>
+          <div class="article-list-meta">
+            <time datetime={post.data.publishedDate.toISOString()}>{formatDate(post.data.publishedDate)}</time>
+            {post.data.tags[0] && <span>{post.data.tags[0]}</span>}
+          </div>
+          <h2>{post.data.title}</h2>
+          <p>{post.data.description}</p>
+        </a>
+      </li>
+    ))}
+  </ol>
+) : (
+  <div class="empty-state">
+    <p>{emptyMessage}</p>
+  </div>
+)}
