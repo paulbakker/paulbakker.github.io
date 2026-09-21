@@ -5,8 +5,7 @@ import ArticleList from '../components/ArticleList.astro';
 import { talks, site } from '../data';
 
 const posts = (await getCollection('writing', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf())
-  .slice(0, 3);
+  .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf());
 
 const personSchema = {
   '@context': 'https://schema.org',
@@ -26,19 +25,16 @@ const personSchema = {
       <p class="eyebrow">Staff software engineer · Author · Speaker</p>
       <h1>Paul Bakker</h1>
       <p class="hero-lede">
-        I am a staff software engineer on the Java Platform team at Netflix.
+        Staff software engineer on the Java Platform team at Netflix and Java Champion
       </p>
-      <p class="hero-support">
-        I work on the Java stack and tooling used by Netflix microservices, and was one of the original authors of the DGS framework.
-      </p>
+
       <div class="hero-actions">
-        <a class="button button-primary" href="/writing/">Read the writing</a>
+        <a class="button button-primary" href="#articles">Read the articles</a>
         <a class="button button-secondary" href="/about/">More about me</a>
       </div>
     </div>
     <figure class="hero-portrait">
       <img src="/images/paul-bakker.jpg" alt="Paul Bakker speaking at a conference" width="500" height="500" />
-      <figcaption>Building software and sharing what works.</figcaption>
     </figure>
   </section>
 
@@ -66,13 +62,12 @@ const personSchema = {
     </div>
   </section>
 
-  <section class="home-section" aria-labelledby="writing-heading">
+  <section id="articles" class="home-section" aria-labelledby="articles-heading">
     <div class="section-heading section-heading-row">
       <div>
         <p class="eyebrow">Latest</p>
-        <h2 id="writing-heading">Articles</h2>
+        <h2 id="articles-heading">Articles</h2>
       </div>
-      <a class="text-link" href="/writing/">All articles</a>
     </div>
     <ArticleList posts={posts} emptyMessage="The new publication is being prepared. The first article will appear here." />
   </section>

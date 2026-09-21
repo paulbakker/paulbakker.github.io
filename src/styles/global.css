@@ -499,20 +499,16 @@ nav a[aria-current="page"] {
   padding: 28px 0 96px;
 }
 
+.content-section > .article-list {
+  margin-top: 0;
+  border-top: 0;
+}
+
 .talk-list-full {
   margin-top: 0;
   border-top: 0;
 }
 
-.tag-summary {
-  width: min(calc(100% - 48px), var(--max-width));
-  margin: 24px auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tag-summary span,
 .article-meta span {
   padding: 3px 8px;
   border: 1px solid var(--line);
@@ -854,8 +850,7 @@ nav a[aria-current="page"] {
   .contact-callout,
   .page-header,
   .article-page,
-  .not-found,
-  .tag-summary {
+  .not-found {
     width: min(calc(100% - 32px), var(--max-width));
   }
 
