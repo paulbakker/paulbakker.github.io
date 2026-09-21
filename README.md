@@ -13,7 +13,7 @@ npm run dev
 
 The local server runs at `http://localhost:4321` by default.
 
-## Writing
+## Articles
 
 Add Markdown or MDX files to `src/content/writing`. Article frontmatter uses this shape:
 
