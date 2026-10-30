@@ -1,4 +1,10 @@
-# How (not) to use AI for pull requests and code reviews
+---
+title: How (not) to use AI for pull requests and code reviews
+description: We don't need to review all code changes. Make it easy for reviewers to focus on what's important.
+publishedDate: 2026-08-13
+tags: [AI]
+draft: false
+---
 
 The number of pull requests most teams produce has drastically increased because of the help of coding agents. 
 How do we review all those pull requests?
