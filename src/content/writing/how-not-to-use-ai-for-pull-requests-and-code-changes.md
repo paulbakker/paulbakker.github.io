@@ -32,6 +32,12 @@ Thought about the design, implications, the code itself, verified behavior etc.
 Coding agents are our peers in this process to help you catch that bug that in the past we needed a code review for.
 When we review code with our agents, before even creating a PR, there is little point in having others in the team to review this code.
 Do we really expect to find glaring bugs in code already verified by the author and his coding agents?
+Instead of making the author of the pull request responsible for reaching this level of quality, can't we just have a review agent run once the pull request is created?
+In my opinion, this just adds delay and causes context switching.
+You have a coding agent right at your fingertips, ready to help you improve your pull request before submitting it. Use it!
+I'm not saying it's bad to have a review agent in your PR process.
+However, I do think it's bad to submit PRs that are clearly not ready (unless explicitly called out) and just rely on the review agent to help you out.
+Even more so if your team also get notified of the PR, and might start reviewing already.
 
 We *should* involve our team in decision-making about the things that really matter, and things that we are unsure of.
 The pull request description should clearly call out what you want your team to give feedback on.
